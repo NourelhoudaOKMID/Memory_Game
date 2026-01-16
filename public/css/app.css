@@ -2,6 +2,9 @@
 body{
     height: 100vh;
     background-color: #6974dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .game{
@@ -27,10 +30,11 @@ body{
     height: 100%;
     padding: 15px;
     /* background: #daaeae; */
+     backface-visibility: hidden;
 }
 
 
-.memory-card .front {
+.memory-card .picGame {
     transform: rotateY(180deg);
 }
 
