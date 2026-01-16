@@ -37,7 +37,7 @@ body{
 .memory-card .picGame {
     transform: rotateY(180deg);
 }
-
+/*  for js  */
 .memory-card.flip {
     transform: rotateY(180deg);
 }
